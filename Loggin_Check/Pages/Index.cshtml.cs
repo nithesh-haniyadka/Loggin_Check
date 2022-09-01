@@ -27,6 +27,7 @@ namespace Loggin_Check.Pages
             _logger.LogInformation(Logginid.DemoCode,"This is our first logged  message");
             _logger.LogError("The server is down {Time}", DateTime.UtcNow);
 
+
             //try
             //{
 
